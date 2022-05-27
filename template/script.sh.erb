@@ -36,7 +36,7 @@ echo ls command returned $?
 
 #/usr/bin/python3 -m jupyter notebook --config="${CONFIG_FILE}" <%= context.extra_jupyter_args %>
 
-#/usr/bin/python3 /home/ubuntu/ondemand/dev/bc_example_flaskapp/flaskapp.py $(hostname) $port
+#/usr/bin/python3 /home/$USER/ondemand/dev/bc_example_flaskapp/flaskapp.py $(hostname) $port
 /usr/bin/python3 /home/ubuntu/ondemand/dev/bc_example_flaskapp/flaskapp.py $host $port
 #/usr/bin/python3 /home/ubuntu/ondemand/dev/bc_example_flaskapp/a.py $host $port
 
